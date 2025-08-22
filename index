@@ -1,0 +1,48 @@
+!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"&gt;
+    <link rel="preconnect" href="https://fonts.gstatic.com&quot; crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap&quot; rel="stylesheet">
+    <title>Jornada pelos Estádios Brasileiros</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="estadio-passo0.jpg" alt="Mapa de estádios do Brasil">
+            <p>Você é um explorador de estádios e quer conhecer os mais emblemáticos do Brasil. Por qual você começa?</p>
+            <button class="btn-proximo" data-proximo="1">Maracanã - RJ</button>
+            <button class="btn-proximo" data-proximo="2">Arena Pernambuco - PE</button>
+        </div>
+       
+        <div class="passo" id="passo-1">
+            <img src="maracana.jpeg" alt="Estádio do Maracanã">
+            <p>Você está no lendário Maracanã! O estádio mais famoso do Brasil, palco de grandes momentos do futebol.</p>
+            <button class="btn-proximo" data-proximo="3">Próximo estádio</button>
+        </div>
+       
+        <div class="passo" id="passo-2">
+            <img src="arena-pe.jpeg" alt="Arena Pernambuco">
+            <p>Você chegou na moderna Arena Pernambuco, um dos estádios mais bonitos do Nordeste!</p>
+            <button class="btn-proximo" data-proximo="3">Próximo estádio</button>
+        </div>
+       
+        <div class="passo" id="passo-3">
+            <img src="arena-am.jpeg" alt="Arena da Amazônia">
+            <p>Finalmente na Arena da Amazônia, um estádio impressionante no coração da floresta!</p>
+            <button class="btn-proximo" data-proximo="4">Finalizar tour</button>
+        </div>
+       
+        <div class="passo" id="passo-4">
+            <img src="tour-completo.jpg" alt="Tour completo">
+            <p>Parabéns! Você completou o tour pelos três estádios mais impressionantes do Brasil! Espero que voce tenha gostado e até uma próxima aventura.</p>
+            <button class="btn-proximo" data-proximo="0">Recomeçar</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
+MARCELO BETTER
